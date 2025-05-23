@@ -12,5 +12,10 @@ public class MethodSample {
         var result = num1 + num2; 
         System.out.println("sumMethod1の結果は" + result); 
         }
+        
+        public static int sumMethod2(int num1,int num2) {
+            var result = num1 + num2;
+            return result;
+        }
 
 }
