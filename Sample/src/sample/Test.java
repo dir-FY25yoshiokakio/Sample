@@ -3,9 +3,12 @@ package sample;
 public class Test {
 
     public static void main(String[] args) {
-        System.out.println("Kiramex");
-        System.out.println("Java");
-        System.out.println("学習を始めましょう!");
+        var number1 = 1;
+        System.out.println(number1);
+        
+        String str1;
+        str1 = "abc";
+        System.out.println(str1);
 
     }
 
